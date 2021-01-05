@@ -24,6 +24,7 @@ Data Visualization Goals
 Interactive Visual #1
 
 2019 Cloropleth Map
+
 Q: What does debt look like accross the nation, versus income
 
 https://ticas.org/interactive-map/
@@ -41,6 +42,7 @@ https://ticas.org/interactive-map/
 Interactive Visual #2
 
 Bar Chart
+
 Q: Do states with higher educational attainment have higher personal income?
 
 		Drop down options:
@@ -50,19 +52,26 @@ Q: Do states with higher educational attainment have higher personal income?
 		Bar Graph will change x axis according to Level of Education or Career Path. It won't be separated by state.
 
 Interactive Visual #3
+
 5 year Line Chart
+
 Q: How has tuition changed over time?
 		Drop down options:
 		Tuition over time by state
 		Income by Level by state
 
 Minimum:
+
 Cloropleth: Tuition Cost, Median Income
+
 Bar graph: Level of Education vs Student Debt
 
 Nice to have:
+
 Cloropleth: Student Debt, Median Income, Unemployment Rates
+
 Bar graph: Level of Education and Degree Path vs Student Debt
+
 Sketch
 
 Sources: 
