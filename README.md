@@ -13,39 +13,45 @@
 *Your project must include some level of user driven interaction (menus, dropdowns, text boxes)
 *Your final visualization should ideally include at least 3 views
 
-Leading Question: 
-Which state has the highest return on investment (ROI) with regards to tuition costs and average income level?
-    Rationale:
-    College Costs have increased, on average, 8% every year; doubling every 9 years. About 34% of people aged between 18 and 29 currently have student loan debts in the US. With the ever increasing cost of tuition, the question many young Americans ask themselves, “is college worth it”? We want to visualize the nuances of college tuition and average income by state and degree level. Our visualization will show the financial impact vs. income potentials of obtaining a higher education in the US.
+	Leading Question: 
+	Which state has the highest return on investment (ROI) with regards to tuition costs and average income level?
+	
+	Rationale:
+	College Costs have increased, on average, 8% every year; doubling every 9 years. About 34% of people aged between 18 and 29 currently have student loan debts in the US. With the ever increasing cost of tuition, the question many young Americans ask themselves, “is college worth it”? We want to visualize the nuances of college tuition and average income by state and degree level. Our visualization will show the financial impact vs. income potentials of obtaining a higher education in the US.
 
 Data Visualization Goals 
+
 Interactive Visual #1
-2019 Cloropleth Map:
-Q: 
+2019 Cloropleth Map
+Q: What does debt look like accross the nation, versus income
 https://ticas.org/interactive-map/
 
-Map will include 
-“on hover”:
-Median Income
-“on-click” data:
-Avg Student Debt
-Tuition Costs
+		Map will include 
+		“on hover”:
+		Median Income
+		“on-click” data:
+		Avg Student Debt
+		Tuition Costs
 
-Cloropleth will have two options for colors: Tuition Cost or Median Income. When you click on the state it will popup Tuition Cost, Median Income and Average Student Debt.
+		Cloropleth will have two options for colors: 
+		Tuition Cost or Median Income. When you click on the state it will popup Tuition Cost, Median Income and Average Student Debt.
+		
 Interactive Visual #2
-Bar Chart:
-Q: Do states with higher educational attainment  have higher personal income?
-Drop down options:
-Number of people graduated with degree levels
-Income by Level of education (Bachelors, Masters, Doctorate)
+Bar Chart
+Q: Do states with higher educational attainment have higher personal income?
 
-Bar Graph will change x axis according to Level of Education or Career Path. It won't be separated by state.
+		Drop down options:
+		Number of people graduated with degree levels
+		Income by Level of education (Bachelors, Masters, Doctorate)
+
+		Bar Graph will change x axis according to Level of Education or Career Path. It won't be separated by state.
+
 Interactive Visual #3
-	5 year Line Chart
+5 year Line Chart
 Q: How has tuition changed over time?
-Drop down options:
-Tuition over time by state
-Income by Level by state
+		Drop down options:
+		Tuition over time by state
+		Income by Level by state
 
 Minimum:
 Cloropleth: Tuition Cost, Median Income
