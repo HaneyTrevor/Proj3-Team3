@@ -22,8 +22,10 @@
 Data Visualization Goals 
 
 Interactive Visual #1
+
 2019 Cloropleth Map
 Q: What does debt look like accross the nation, versus income
+
 https://ticas.org/interactive-map/
 
 		Map will include 
@@ -37,6 +39,7 @@ https://ticas.org/interactive-map/
 		Tuition Cost or Median Income. When you click on the state it will popup Tuition Cost, Median Income and Average Student Debt.
 		
 Interactive Visual #2
+
 Bar Chart
 Q: Do states with higher educational attainment have higher personal income?
 
