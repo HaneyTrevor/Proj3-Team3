@@ -1,16 +1,17 @@
 # Proj3-Team3
 
-Specific Project Requirements
-Python Flask - powered API, HTML/CSS, Javascript, and at least one database( SQL, MongoDB, SQLite, etc)
-One of four tracks:
-A custom “creative” d3.js project (i.e, a nonstandard graph or chart)
-A combination of web scraping and leaflet or plotly
-A dashboard page with multiple charts that update from the same data
-A “thick” server that performs multiple manipulations on data in a database prior to visualization
-Your project should include at least one JS library that we did not cover
-Your project must be powered by a data set with at least 100 records
-Your project must include some level of user driven interaction (menus, dropdowns, text boxes)
-Your final visualization should ideally include at least 3 views
+###Specific Project Requirements
+
+*Python Flask - powered API, HTML/CSS, Javascript, and at least one database( SQL, MongoDB, SQLite, etc)
+*One of four tracks:
+	A custom “creative” d3.js project (i.e, a nonstandard graph or chart)
+	A combination of web scraping and leaflet or plotly
+	A dashboard page with multiple charts that update from the same data
+	A “thick” server that performs multiple manipulations on data in a database prior to visualization
+*Your project should include at least one JS library that we did not cover
+*Your project must be powered by a data set with at least 100 records
+*Your project must include some level of user driven interaction (menus, dropdowns, text boxes)
+*Your final visualization should ideally include at least 3 views
 
 Leading Question: 
 Which state has the highest return on investment (ROI) with regards to tuition costs and average income level?
