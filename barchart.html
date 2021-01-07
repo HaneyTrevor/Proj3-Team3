@@ -38,7 +38,7 @@
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item" href="choropleth.html">Choropleth Map</a>
-                            <a class="dropdown-item" href="index.html">Bar Chart</a>
+                            <a class="dropdown-item" href="barchart.html">Bar Chart</a>
                             <a class="dropdown-item" href="index.html">Line Chart</a>
                         </div>
                     </li>
@@ -54,21 +54,22 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-lg-12 col-md-12">
+            <div class="col-lg-12 col-md-20">
+
                 <div class="box" style="padding-bottom: 20px;">
                     <h3 class="title">Bar Chart</h3>
                     <hr>
                     <div id="plot"></div>
+                        <select id="selDataset">
+                            <option value="dataset1">Weekly Pay ($) by Educational Attainment</option>
+                            <option value="dataset2">Unemployment (%) by Educational Attainment</option>
+                            <!-- <option value="dataset3">DataSet3</option> -->
+                        </select>
                     <script src="static/js/plots.js"></script>
-            
-                    <!-- <title>Educational Cloropleth</title>
-                
-                    <meta charset="utf-8">
-                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                
-                    <div id="map"></div> -->
+    
                 </div>
             </div>
+            
             <div class="col-lg-12 col-md-5">
                 <div class="box">
                     <h3 class="title">VISUALIZATIONS</h3>
@@ -76,28 +77,31 @@
                     <div class="container">
                         <div class="row" style="padding-bottom: 30px;">
                             <!-- <p> INSERT OBSERVATIONS HERE</p> -->
+                            
                             <div class="col-4">
                                 <div class="title">Choropleth Map</div>
                             <a href="choropleth.html">
                             <img class="panel" src="choroplethmap.png" alt="Choropleth Map">
                             </a>
-                        </div>
-                        <div class="col-4">
+                            </div>
+                            
+                            <div class="col-4">
                                 <div class="title">Bar Graph</div>
                             <a href="index.html">
                             <img class="panel" src="bar.png" alt="Bar Graph">
                             </a>
-                        </div>
-                    <!-- </div> -->
-                    <div class="row" style="padding-bottom: 30px;">
-                        <div class="col-4">
+                            </div>
+
+                            <!-- </div> -->
+                            <!-- <div class="row" style="padding-bottom: 30px;"> -->
+                            <div class="col-4">
                                 <div class="title">Line Graph</div>
                             <a href="index.html">
                             <img class="panel" src="line.png" alt="Line Graph">
                             </a>
-                        </div>
+                            </div>
           
-                        <!-- </div> -->
+                            <!-- </div> -->
                     </div>
                 </div>
             </div>
