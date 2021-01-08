@@ -11,27 +11,6 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 
 var link = "static/data/usa_info_map.geojson";
 
-var incomeData = "static/data/income_by_state.csv";
-
-
-
-// // Grabbing our GeoJSON data..
-// d3.json(link, function(data) {
-//   // Creating a GeoJSON layer with the retrieved data
-//   L.geoJson(data).addTo(map);
-// });
-
-
-
-//CSV WITHIN JSON
-d3.json(link, function(mapper) {
-  d3.csv(incomeData, function(incD) {
-
-  })
-})
-
-
-
 // Grab data with d3
 d3.json(link, function(data) {
 
@@ -53,7 +32,8 @@ d3.json(link, function(data) {
       // Border color
       color: "#fff",
       weight: 1,
-      fillOpacity: 0.8
+      fillOpacity: 0.8,
+      dashArray: '3'
     },
 
     // Binding a pop-up to each layer
