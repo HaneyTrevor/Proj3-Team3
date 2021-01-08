@@ -18,7 +18,7 @@ d3.json(link, function(data) {
   geojson = L.choropleth(data, {
 
     // Define what  property in the features to use
-    valueProperty: "Median_Income",
+    valueProperty: "debt_in_dollars",
 
     // Set color scale
     scale: ["#ffffb2", "#b10026"],
@@ -38,9 +38,8 @@ d3.json(link, function(data) {
 
     // Binding a pop-up to each layer
     onEachFeature: function(features, layer) {
-      console.log(incomeData.State);
-      layer.bindPopup("State: " + features.properties.NAME + "<br>Median Household Income:<br>" + "$" + features.properties.Median_Income +
-        "<br>Average Student Debt:<br>" + "$" + features.properties.debt_in_dollars + "<br>Percentage of Students in Debt:<br>" + features.properties.dept_percentage);
+      layer.bindPopup("State: " + features.properties.NAME + "<br>Median Household Income:<br>" + features.properties.Median_Income +
+       "<br>Average Student Debt:<br>" + features.properties.debt_in_dollars + "<br>Percentage of Students in Debt:<br>" + features.properties.dept_percentage);
     }
   }).addTo(map);
 
@@ -53,7 +52,7 @@ d3.json(link, function(data) {
     var labels = [];
 
     // Add min & max
-    var legendInfo = "<h1>Median Income</h1>" +
+    var legendInfo = "<h1>Average Debt</h1>" +
       "<div class=\"labels\">" +
         "<div class=\"min\">" + limits[0] + "</div>" +
         "<div class=\"max\">" + limits[limits.length - 1] + "</div>" +
