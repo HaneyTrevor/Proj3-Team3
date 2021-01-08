@@ -38,7 +38,6 @@ d3.json(link, function(data) {
 
     // Binding a pop-up to each layer
     onEachFeature: function(features, layer) {
-      console.log(incomeData.State);
       layer.bindPopup("State: " + features.properties.NAME + "<br>Median Household Income:<br>" + features.properties.Median_Income +
        "<br>Average Student Debt:<br>" + features.properties.debt_in_dollars + "<br>Percentage of Students in Debt:<br>" + features.properties.dept_percentage);
     }
