@@ -11,27 +11,6 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 
 var link = "static/data/usa_info_map.geojson";
 
-var incomeData = "static/data/income_by_state.csv";
-
-
-
-// // Grabbing our GeoJSON data..
-// d3.json(link, function(data) {
-//   // Creating a GeoJSON layer with the retrieved data
-//   L.geoJson(data).addTo(map);
-// });
-
-
-
-//CSV WITHIN JSON
-d3.json(link, function(mapper) {
-  d3.csv(incomeData, function(incD) {
-
-  })
-})
-
-
-
 // Grab data with d3
 d3.json(link, function(data) {
 
@@ -53,14 +32,15 @@ d3.json(link, function(data) {
       // Border color
       color: "#fff",
       weight: 1,
-      fillOpacity: 0.8
+      fillOpacity: 0.8,
+      dashArray: '3'
     },
 
     // Binding a pop-up to each layer
     onEachFeature: function(features, layer) {
       console.log(incomeData.State);
-      layer.bindPopup("State: " + features.properties.NAME + "<br>Median Household Income:<br>" + features.properties.Median_Income +
-       "<br>Average Student Debt:<br>" + features.properties.debt_in_dollars + "<br>Percentage of Students in Debt:<br>" + features.properties.dept_percentage);
+      layer.bindPopup("State: " + features.properties.NAME + "<br>Median Household Income:<br>" + "$" + features.properties.Median_Income +
+        "<br>Average Student Debt:<br>" + "$" + features.properties.debt_in_dollars + "<br>Percentage of Students in Debt:<br>" + features.properties.dept_percentage);
     }
   }).addTo(map);
 
