@@ -1,6 +1,6 @@
 var app = new Vue({
     el: '#app',
     data: {
-      message: 'Vue Text'
+      message: 'Choose a graph down below:'
     }
   })
