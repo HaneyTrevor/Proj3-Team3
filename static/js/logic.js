@@ -1,4 +1,4 @@
-var mapboxAccessToken = API_KEY;
+// var mapboxAccessToken = API_KEY;
 var map = L.map('map').setView([37.8, -96], 4);
 
 L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
@@ -38,8 +38,8 @@ d3.json(link, function(data) {
 
     // Binding a pop-up to each layer
     onEachFeature: function(features, layer) {
-      layer.bindPopup("State: " + features.properties.NAME + "<br>Median Household Income:<br>" + features.properties.Median_Income +
-       "<br>Average Student Debt:<br>" + features.properties.debt_in_dollars + "<br>Percentage of Students in Debt:<br>" + features.properties.dept_percentage);
+      layer.bindPopup("<h3> " + features.properties.NAME + "</h3><hr><br>Median Household Income:<br> $" + features.properties.Median_Income +
+       "<br>Average Student Debt: <br> $" + features.properties.debt_in_dollars + "<br>Percentage of Students in Debt: <br>" + features.properties.dept_percentage);
     }
   }).addTo(map);
 

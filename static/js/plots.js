@@ -74,10 +74,15 @@ function init() {
         };
         break;
   
-    //   case "dataset3":
-    //     x = ["Doctoral degree", "Professional degree"," Master's degree", "Bachelor's degree", "Associate's degree", "Some college, no degree","High school diploma", "Less than a high school diploma"];
-    //     y = [10, 100, 50, 10, 0];
-    //     break;
+      case "dataset3":
+        x = ["Doctoral degree", "Professional degree"," Master's degree", "Bachelor's degree", "Associate's degree", "Some college, no degree","High school diploma", "Less than a high school diploma"];
+        y = [ 20, 20, 36, 29, 7, 8, 0, 0];
+        update = {
+            title: "Educational Attainment vs Share of Student Debt (%)",
+            xaxis: { title: "Educational Attainment" },
+            yaxis: { title: "Share of Student Debt (%)" }
+        };
+        break;
   
       default:
         x = ["Doctoral degree", "Professional degree"," Master's degree", "Bachelor's degree", "Associate's degree", "Some college, no degree","High school diploma", "Less than a high school diploma"];

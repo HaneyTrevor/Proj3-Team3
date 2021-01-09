@@ -1,1 +1,3 @@
 const API_KEY = "pk.eyJ1IjoiamVjeWZkZXoiLCJhIjoiY2tpanAwaGJrMDIwYTMwbnpsa25vODhxYSJ9.U5QCr_paonKiygZ6Qmx7QA"
+
+const API = "pk.eyJ1IjoicmJyZW5uYW5kIiwiYSI6ImNraWpwMTZydzAyMHgzNGw5M2Z0MmZzbXAifQ.43LkYg4N2IJ_WvqRIM43JA"
