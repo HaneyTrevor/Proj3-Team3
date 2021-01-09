@@ -72,11 +72,3 @@ d3.json(link, function(data) {
 
 });
 
-
-//////////////////////////////
-var app = new Vue({
-  el: '#app',
-  data: {
-    message: 'Vue Text'
-  }
-});
